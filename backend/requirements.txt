@@ -1,9 +1,6 @@
-fastapi==0.135.3
-uvicorn==0.43.0
-openai==1.60.2
-python-dotenv==1.0.0
-pydantic==2.10.6
-starlette==1.0.0
-anyio==4.13.0
-httpx==0.28.1
-annotated-types==0.7.0
+fastapi>=0.100.0
+uvicorn>=0.20.0
+openai>=1.0.0
+python-dotenv>=0.21.0
+pydantic>=2.11.0
+httpx>=0.24.0
