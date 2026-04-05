@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# Data (raw CSV, not needed)
+data/
+
+# Node
+car-app/node_modules/
+car-app/dist/
+
+# Old frontend
+frontend/
