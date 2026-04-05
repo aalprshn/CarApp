@@ -1,4 +1,4 @@
-const API = "http://localhost:8000";
+const API = import.meta.env.VITE_API_URL || "https://carapp-epow.onrender.com";
 
 export async function fetchOptions() {
   const res = await fetch(`${API}/options`);
